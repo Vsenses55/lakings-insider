@@ -1,0 +1,3 @@
+export default {
+p6d92e00: "M0.5 0.5V326.5H379.5V0.5H0.5ZM0 0H380V327H0V0Z",
+}

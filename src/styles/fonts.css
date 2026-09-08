@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* 
+  Flama fonts (Semibold 600 & Bold 700) are loaded dynamically via JavaScript
+  
+  The fonts are base64-encoded in text files and loaded at runtime using the
+  FontFace API in /src/utils/loadFonts.ts
+  
+  This approach:
+  ✓ Eliminates CORS issues
+  ✓ Works on all published links  
+  ✓ Loads fonts asynchronously without blocking render
+  ✓ Supports proper font weights (600 and 700)
+*/
