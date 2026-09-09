@@ -9,6 +9,10 @@ import imgAds from "figma:asset/7abbc6cb054696a20fcd790bf4232219b3f761c2.png";
 import imgSpotlight from "figma:asset/37a3ef8ceea7c4c2aa91ebde5a7452f6eabefbb4.png";
 import imgTakeoverAd from "figma:asset/c416c616ba831f3b7bac9561b3d59cf436f6fe2e.png";
 import img300X250Banner from "figma:asset/d9c885db4474efee935f50587302772a7bab1299.png";
+import imgCardFight from "../../assets/kings-card-fight.png";
+import imgCardGoalie from "../../assets/kings-card-goalie.png";
+import imgCardForward from "../../assets/kings-card-forward.png";
+import imgCardMatchup from "../../assets/kings-card-matchup.png";
 // Component imports
 import SearchBar from "./SearchBar";
 import NavDropdown from "./NavDropdown";
@@ -473,40 +477,40 @@ export default function HomePrototype() {
                   {/* Card 1 */}
                   <div className="w-full">
                     <div className="block sm:hidden">
-                      <CardImport states="Small Mobile" />
+                      <CardImport states="Small Mobile" imageUrl={imgCardFight} />
                     </div>
                     <div className="hidden sm:block">
-                      <CardImport states="Small" />
+                      <CardImport states="Small" imageUrl={imgCardFight} />
                     </div>
                   </div>
 
                   {/* Card 2 */}
                   <div className="w-full">
                     <div className="block sm:hidden">
-                      <CardImport states="Small Mobile" />
+                      <CardImport states="Small Mobile" imageUrl={imgCardGoalie} />
                     </div>
                     <div className="hidden sm:block">
-                      <CardImport states="Small" />
+                      <CardImport states="Small" imageUrl={imgCardGoalie} />
                     </div>
                   </div>
 
                   {/* Card 3 */}
                   <div className="w-full">
                     <div className="block sm:hidden">
-                      <CardImport states="Small Mobile" />
+                      <CardImport states="Small Mobile" imageUrl={imgCardForward} />
                     </div>
                     <div className="hidden sm:block">
-                      <CardImport states="Small" />
+                      <CardImport states="Small" imageUrl={imgCardForward} />
                     </div>
                   </div>
 
                   {/* Card 4 */}
                   <div className="w-full">
                     <div className="block sm:hidden">
-                      <CardImport states="Small Mobile" />
+                      <CardImport states="Small Mobile" imageUrl={imgCardMatchup} />
                     </div>
                     <div className="hidden sm:block">
-                      <CardImport states="Small" />
+                      <CardImport states="Small" imageUrl={imgCardMatchup} />
                     </div>
                   </div>
                 </div>
