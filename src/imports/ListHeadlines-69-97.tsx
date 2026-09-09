@@ -67,7 +67,7 @@ export default function ListHeadlines() {
       <div className="content-stretch flex flex-col gap-[24px] items-start relative w-full">
         <ListHeadlinesLabel>
           <div aria-hidden="true" className="absolute border-[#111] border-b-2 border-solid inset-0 pointer-events-none" />
-          <p className="font-['Flama:Bold',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#111] text-[19px] uppercase whitespace-nowrap">MAYORSMANOR.COM</p>
+          <p className="font-['Flama',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#111] text-[19px] uppercase whitespace-nowrap" style={{ fontWeight: 700 }}>MAYORSMANOR.COM</p>
         </ListHeadlinesLabel>
         <PostHeadline className="relative shrink-0 w-[300px]" headline="Miscellaneous Quotes from Five Kings Players " label="FEATURED STORIES" labelVisible={false} state="Mentions" />
         <ListHeadlinesDivider />

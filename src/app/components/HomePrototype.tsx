@@ -13,6 +13,10 @@ import imgCardFight from "../../assets/kings-card-fight.png";
 import imgCardGoalie from "../../assets/kings-card-goalie.png";
 import imgCardForward from "../../assets/kings-card-forward.png";
 import imgCardMatchup from "../../assets/kings-card-matchup.png";
+import imgPodcastKingsMen from "../../assets/podcast-all-the-kings-men.png";
+import imgPodcastOntarioReign from "../../assets/podcast-ontario-reign.png";
+import imgPodcastFoxFaust from "../../assets/podcast-fox-and-faust.png";
+import imgPodcastKotp from "../../assets/podcast-kotp.png";
 // Component imports
 import SearchBar from "./SearchBar";
 import NavDropdown from "./NavDropdown";
@@ -523,7 +527,12 @@ export default function HomePrototype() {
                 {/* Label and Podcasts */}
                 <div className="flex flex-col gap-[40px]">
                   <Label />
-                  <Podcasts />
+                  <Podcasts
+                    imageUrl1={imgPodcastKingsMen}
+                    imageUrl2={imgPodcastOntarioReign}
+                    imageUrl3={imgPodcastFoxFaust}
+                    imageUrl4={imgPodcastKotp}
+                  />
                 </div>
 
                 {/* More Podcasts Button */}
