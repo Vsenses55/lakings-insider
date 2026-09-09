@@ -345,14 +345,14 @@ export default function HomePrototype() {
 
       {/* Search Bar Component - positioned below nav */}
       {searchVisible && (
-        <div className="absolute top-[80px] left-0 w-full z-40">
+        <div className="fixed top-[80px] left-0 w-full z-40">
           <SearchBar isOpen={searchVisible} onClose={() => setSearchVisible(false)} />
         </div>
       )}
 
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-0 left-0 right-0 bg-white z-50 min-h-screen">
+        <div className="md:hidden fixed inset-0 bg-white z-50 overflow-y-auto">
           {/* Header with X and Search */}
           <div className="bg-[#111] h-[68px] flex items-center justify-between px-4">
             <button
